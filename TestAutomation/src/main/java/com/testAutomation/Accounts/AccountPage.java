@@ -11,6 +11,7 @@ public class AccountPage extends BasePage{
 	
 	private WebDriver driver;
 	
+	//added a new line for a commit
 	public AccountPage(WebDriver driver) {
 		super(driver);
 		this.driver = driver;
