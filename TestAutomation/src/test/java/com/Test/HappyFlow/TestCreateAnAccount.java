@@ -32,6 +32,7 @@ public class TestCreateAnAccount extends TestBase{
 				testData.get("Address2"), testData.get("City"), testData.get("State"),testData.get("ZipCode"),testData.get("Country"),
 				testData.get("AdditionalInfo"), testData.get("HomePhone"), testData.get("MobilePhone"));
 		String userName = testData.get("FirstName") +" " +testData.get("LastName");
+		//verify loggedin username
 		Assert.assertEquals(accountPage.getUserName(), userName ,"Validating the Loggedin UserName");
 		
 	}
